@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+.tophead{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0px 25px;
+}
+.tophead ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+.tophead ul li a{
+    text-decoration: none;
+    color: white;
+}
+.tophead ul li a:hover{
+    font-size: 105%;
+    transition: 0.3s linear;
+    color: red;
+    background-color: yellow;
+}
+header{
+    width: 100%;
+    height: 90px;
+    line-height: 50px;
+    background-color: green;
+    color: white ;
+    padding: 0px 25px;
+}
+header h1{
+    margin-right: 20px;
+}
+header h1,header h3{
+    float: left;
+}
+nav{
+    width: 100%;
+    height: 32px;
+    background-color: black;
+    padding: 0px 25px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.downhead{
+    background-color: green;
+    color: black;
+}
